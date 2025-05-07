@@ -27,3 +27,8 @@ body {
 .hamburger-active > span:nth-child(3){
     @apply -rotate-45;
 }
+
+.slide {
+    transition: opacity 1s ease-in-out;
+  }
+  
